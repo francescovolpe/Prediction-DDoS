@@ -1,27 +1,27 @@
 # Prediction DDoS
-Questo progetto è stato sviluppato per il corso universitario Analisi dei dati per la sicurezza.
-Il progetto mira ad estrarre conoscenza dai dati per la classificazione di attacchi DDos seguendo le fasi di sviluppo del processo KDD.
+This project was developed for the university course Data Analysis for Security. 
+The project aims to extract knowledge from data for the classification of DDos attacks by following the development steps of the KDD process.
 
 ![ProcessoKDD](https://github.com/francescovolpe/Prediction-DDoS/blob/main/Img/KDD-Process.png)
 
 ## Dataset
 Source: [A subset of data collected by the Canadian Institute for Cybersecurity in 2019](https://www.unb.ca/cic/datasets/ddos-2019.html).
-Il dataset contiene attacchi che possono essere eseguiti utilizzando protocolli basati su TCP/UDP.
+The dataset contains attacks that can be executed using TCP/UDP-based protocols.
 
-| # Esempi training | # Esempi testing | # Feature | # Classi |
+| # Training examples | # Testing examples | # Feature | # Classes |
 | :---: | :----: | :----: | :----: |
 | 10.000 | 1.000 | 78 | 5 |
 
 
-## Matrice di confusione sul dataset di test
+## Confusion matrix on the test dataset
 ![ConfusionMatrix](https://github.com/francescovolpe/Prediction-DDoS/blob/main/Img/ConfusionMatrix.png)
 
-## Librerie utilizzate
+## Libraries used
 * Python 3.8.12
 * Scikit-learn 1.0
 * Pandas 1.3.4
 * Matplotlib 3.4.3
 * Numpy 1.21.3
 
-#### Problemi visualizzazione notebook
-Se riscontri problemi nella visualizzazione dei notebook a causa del rendering, puoi utilizzare [nbviewer](https://nbviewer.jupyter.org/)
+#### Notebook display problems
+If you have problems displaying notebooks due to rendering, you can use [nbviewer](https://nbviewer.jupyter.org/)
